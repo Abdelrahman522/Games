@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #272B30;
+}
+
+
+
+.card {
+    padding: 10px;
+    border: 1px solid black;
+    filter: grayscale(0.7);
+
+}
+
+.card:hover {
+    scale: 107%;
+    transition: 0.7s;
+    filter: grayscale(0.2);
+    cursor: pointer;
+
+}
+figcaption p{
+    color: #929496;
+}
+nav {
+    background-color: #3A497B;
+    border-radius: 40px;
+}
+.collapse ul a {
+    color: white;
+}
+.logo{
+    max-width: 40px;
+}
+.img-header img{
+max-height: 30vh;}
+
+/* .layer {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+} */
